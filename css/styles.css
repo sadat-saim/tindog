@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+
+   font-family: 'Ubuntu', sans-serif; 
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.main-word {
+    color: #fff;
+    padding: 3rem 0 1.5rem;
+}
+
+.button-custom {
+    padding: 5px 20px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.paddingit {
+    padding-bottom: 95px;
+}
+
+.img-responsive {
+    width: 300px;
+    transform: rotate(25deg);
+    margin-top: 3rem;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+/* features */
+
+#features {
+    text-align: center;
+    background-color: #fff;
+    line-height: 1.5;
+    position: relative;
+}
+
+#features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#features i {
+    font-size: 67px;
+    color: #ef8172;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+.feat {
+    padding: 4rem 1.1rem;
+}
+
+.feat p {
+    color: #8f8f8f;
+}
+
+
+/* testimonials start */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.carousel-item {
+    padding: 3.5rem 13rem;
+}
+
+#testimonials h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+#testimonials em {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+/* press start */
+
+#press {
+    background-color: #ef8172;
+    padding: 2rem 10rem 5rem;
+    text-align: center;
+}
+
+#press img {
+    width: 20%;
+    margin-right: 10px;
+}
+
+
+/* pricing */
+
+#pricing {
+    text-align: center;
+    padding: 3rem 7rem;
+    line-height: 1.5;
+}
+
+#pricing .card {
+    width:
+}
+
+.single {
+    margin-top: 20px;
+}
+
+#pricing h2,
+#pricing h3 {
+    font-weight: 600;
+}
+
+#pricing p {
+    color: #8f8f8f;
+}
+
+
+/* cta start */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6rem 15rem;
+}
+
+#cta h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* footer start */
+
+#footer {
+    text-align: center;
+    padding: 5rem 5rem;
+}
+
+#footer i {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+#footer i:hover {
+    color: #ef8172;
+}
+
+#footer p {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    line-height: 4;
+}
+
+
+/* responsive design */
+
+
+/* tablet */
+
+@media (max-width: 1024px) {
+    .img-responsive {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+    .feat {
+        padding: 2rem 0.3rem;
+    }
+    .carousel-item {
+        padding: 3rem 5rem;
+    }
+    #cta {
+        padding: 4rem 4rem;
+    }
+    #press {
+        padding: 0 2rem 2rem;
+        text-align: center;
+    }
+    #press img {
+        width: 20%;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width:525px) {
+    .main-word {
+        font-size: 2rem;
+        padding: 2rem 0 1.5rem;
+    }
+    .container-fluid {
+        padding: 3% 8%;
+    }
+    #testimonials h2 {
+        font-weight: 700;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .carousel-item {
+        padding: 3rem 2rem;
+    }
+    .paddingit {
+        padding-bottom: 25px;
+    }
+    .img-responsive {
+        display: none;
+        margin: 25px 0 5px;
+    }
+    .button-custom {
+        margin-right: 0;
+    }
+    #pricing {
+        padding: 2rem 2rem;
+    }
+    #cta {
+        padding: 3rem 1rem;
+    }
+    #cta h3 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    #footer {
+        padding: 2rem 2rem 0.2rem;
+    }
+}
